@@ -26,6 +26,7 @@ node {
 	
   }
       stage('Test') {
+	bat 'echo dir' 
         bat 'echo %CD%'   
     }
  }
